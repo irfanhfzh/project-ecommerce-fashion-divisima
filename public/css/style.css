@@ -1,0 +1,218 @@
+/* Image Upload CSS */
+.imagePreview{
+width: 100%;
+height: 180px;
+background-position: center center;
+background:url(http://cliquecities.com/assets/no-image-e3699ae23f866f6cbdf8ba2443ee5c4e.jpg);
+background-color:#fff;
+background-size: cover;
+background-repeat:no-repeat;
+display: inline-block;
+box-shadow:0px -3px 6px 2px rgba(0,0,0,0.2);    
+}
+
+.imgUpload1, .imgUpload2, .imgUpload3, .imgUpload4{
+width: 100%;
+height: 180px;
+background-position: center center;
+background-color:#fff;
+background-size: cover;
+background-repeat:no-repeat;
+display: inline-block;
+}
+
+.btn-success{
+display:block;
+border-radius:0px;
+box-shadow:0px 4px 6px 2px rgba(0,0,0,0.2);
+margin-top:-5px;
+}
+
+.imgUp{
+margin-bottom:15px;
+}
+
+.del1, .del2, .del3, .del4{
+position:absolute;
+top:0px;
+right:15px;
+width:30px;
+height:30px;
+text-align:center;
+line-height:30px;
+background-color:rgba(255,255,255,0.6);
+cursor:pointer;
+}
+/* Image Upload CSS */
+
+/* Button Remove Style */
+button, input[type="submit"], input[type="reset"]{
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+/* Button Remove Style */
+
+/* ATC button width auto */
+.product-item .pi-links{
+	width: auto;
+}
+/* ATC button width auto */
+
+/* Variant Custom Style */
+.product-details .fw-variant-choose p{
+	float: left;
+    margin-right: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #414141;
+    padding-top: 10px;
+    margin-bottom: 0;
+	margin-top: 10px;
+}
+
+.product-details .fw-variant-choose {
+	border-bottom: none;
+    margin-bottom: 30px;
+    padding-bottom: 0;
+}
+/* Variant Custom Style */
+
+/* Custom Radio Button */
+.radio-toolbar {
+	display: inline-block;
+	margin: 10px;
+}
+
+.radio-toolbar input[type="radio"] {
+	opacity: 0;
+	position: fixed;
+	width: 0;
+}
+
+.radio-toolbar label {
+	display: inline-block;
+	background-color: #fff;
+	padding: 5px 10px;
+	font-family: sans-serif, Arial;
+	font-size: 16px;
+	border: 2px solid #444;
+	border-radius: 4px;
+}
+
+.radio-toolbar label:hover {
+	background-color: #fff;
+}
+
+.radio-toolbar input[type="radio"]:focus + label {
+    border: 2px solid #444;
+}
+
+.radio-toolbar input[type="radio"]:checked + label {
+    background-color: #f51167;
+    color: #fff;
+	border: 2px solid #f51167;
+}
+/* Custom Radio Button */
+
+/* inputAddButton */
+.inputAdd{
+  width:30px;
+  height:30px;
+  border-radius:50%;
+  background-color:#4bd7ef;
+  color:#fff;
+  box-shadow:0px 0px 2px 1px rgba(0,0,0,0.2);
+  text-align:center;
+  line-height:30px;
+  margin-top:0px;
+  cursor:pointer;
+  font-size:15px;
+}
+/* inputAddButton */
+
+/* Custom QTY Button */
+.qty .count {
+    color: #000;
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 30px;
+    padding: 0 1px;
+	min-width: 35px;
+    text-align: center;
+}
+.qty .plus {
+    cursor: pointer;
+    display: inline-block;
+    color: white;
+    width: 20px;
+    height: 20px;
+    font: 17px Arial,sans-serif;
+    text-align: center;
+    border-radius: 50%;
+    }
+.qty .minus {
+    cursor: pointer;
+    display: inline-block;
+    color: white;
+    width: 20px;
+    height: 20px;
+    font: 17px Arial,sans-serif;
+    text-align: center;
+    border-radius: 50%;
+    background-clip: padding-box;
+}
+.minus:hover{
+    background-color: #717fe0 !important;
+}
+.plus:hover{
+    background-color: #717fe0 !important;
+}
+/*Prevent text selection*/
+.qty span{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+.qty input{  
+    border: 0;
+    width: 1%;
+}
+.qty input::-webkit-outer-spin-button,
+.qty input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.qty input:disabled{
+    background-color:white;
+}
+/* Custom QTY Button */
+
+/* Categories Products */
+ul.category-menu li.active>a {
+    /* color: #111; */
+}
+
+ul.category-menu li.active a:after {
+    background: none;
+}
+
+ul.category-menu li.activeCategories>a {
+    color: #f51167;
+}
+
+ul.category-menu li.activeCategories a:after {
+    background: #f51167;
+}
+/* Categories Products */
+
+/* Pagination */
+.text-center .pagination {
+    justify-content: center;
+}
+/* Pagination */
